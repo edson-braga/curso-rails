@@ -1,8 +1,8 @@
 RUBY_VERSION="2.4.0"
 RAILS_VERSION="5.0.2"
 MYSQL_PASSWORD="123456"
-GIT_USER_NAME="Costa Nonato"
-GIT_USER_EMAIL="costa@nonato.com"
+GIT_USER_NAME="Edson Braga"
+GIT_USER_EMAIL="emtds.braga@gmail.com"
 NODE_VERSION="6"
 
 
