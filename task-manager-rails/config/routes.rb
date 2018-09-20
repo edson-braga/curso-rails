@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   #constraints -> especifica restrições, neste caso só entra se o subdominio for 'api' EX: www.site.com -> api.site.com
   #path -> especifica o contexto da aplicação EX: api.site.com/task, ou api.site.com/backend/task - caso o valor de path seja backend
   namespace :api, defaults: { format: :json }, constraints: { subdomain : 'api' }, path: "/" do
-
+    namespace :v1 do
+      resources :tasks
   end
 end
